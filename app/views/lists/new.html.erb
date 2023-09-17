@@ -1,0 +1,19 @@
+<h1>Books</h1>
+<h4>Title   Body</h4>
+<p>トラブル知らずのシステム設計	システム設計の要点を図解で説明してくれます</p>
+<p>たのしいRuby	Rubyの入門におすすめです</p>
+<p>入門Git	gitについての基本操作から内部構造まで解説してくれます</p>
+<p>アルゴリズム図鑑	アルゴリズムについてカラーイラストでしっかり解説してくれます</p>
+<p>達人プログラマー	プログラマ入門者は必読！</p>
+<p>データベース実践入門	効率的なSQL文を教えてくれます</p>
+
+<h2>New book</h2>
+<%= form_with model: List.new do |f| %>
+<h4>Title</h4>
+  <%= f.text_field :title %>
+
+  <h4>Body</h4>
+  <%= f.text_area :body %>
+
+  <%= f.submit 'Create Book' %>
+<% end %>
