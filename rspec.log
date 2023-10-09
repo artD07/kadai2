@@ -49,6 +49,6 @@ Book モデルに関するテスト
 [32m      更新に失敗しエラーメッセージが表示されるか[0m
 [32m      更新後のリダイレクト先は正しいか[0m
 
-Finished in 2.69 seconds (files took 2.15 seconds to load)
+Finished in 2.45 seconds (files took 1.52 seconds to load)
 [32m29 examples, 0 failures[0m
 
