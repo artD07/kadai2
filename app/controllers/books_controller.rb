@@ -37,9 +37,9 @@ class BooksController < ApplicationController
     else
     @books = Book.all
       render :edit
-  end
+    end
 
-end
+  end
 
   def destroy
     book = Book.find(params[:id])  # データ（レコード）を1件取得
